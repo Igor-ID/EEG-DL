@@ -30,7 +30,7 @@
 <li><a href="#Notice">Notice</a></li>
 <li><a href="#Research-Ideas">Research Ideas</a></li>
 <li><a href="#Common-Issues">Common Issues</a></li>
-<li><a href="#Structure-of-the-code">Structure of the code</a></li>
+<li><a href="#Structure-of-the-Code">Structure of the Code</a></li>
 <li><a href="#Citation">Citation</a></li>
 <li><a href="#Other-Useful-Resources">Other Useful Resources</a></li>
 <li><a href="#Contribution">Contribution</a></li>
@@ -49,26 +49,25 @@
 | 5     | Densely Connected Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/1608.06993) | [DenseNet](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/DenseCNN.py) |
 | 6     | Fully Convolutional Neural Networks [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf) | [FCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/Fully_Conv_CNN.py) |
 | 7     | One Shot Learning with Siamese Networks (CNNs Backbone) <br> [[Paper]](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf) [[Tutorial]](https://towardsdatascience.com/one-shot-learning-with-siamese-networks-using-keras-17f34e75bb3d) | [Siamese Networks](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/Siamese_Network.py) |
-| 8     | Graph Convolutional Neural Networks <br> [[Paper]](https://arxiv.org/abs/2006.08924) [[Presentation]](https://drive.google.com/file/d/1ecMbtZV2eH14sRAqWIIf1iRvDAC7DMDs/view?usp=sharing) [[Tutorial]](https://github.com/mdeff/cnn_graph) <br> [[GCN / GNN Summary for Chinese Readers]](https://github.com/wangyouze/GNN-algorithms) <br> [[GNN-related Algorithms Review for Chinese Readers]](https://github.com/LYuhang/GNN_Review) <br> [[Literature of Deep Learning for Graphs]](https://github.com/DeepGraphLearning/LiteratureDL4Graph) | [GCN / Graph CNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/GCN_Model.py) |
-| 9     | Graph Convolutional Neural Networks <br> (Pure Python Implementation from [Reza Amini](https://github.com/magnumical)) | [GCN / Graph CNN](https://github.com/magnumical/GCN_for_EEG) |
-| 10    | Deep Residual Graph Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/2007.13484) | [ResGCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/ResGCN_Model.py) | 
-| 11    | Densely Connected Graph Convolutional Neural Networks  | [DenseGCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/DenseGCN_Model.py) |
-| 12    | Bayesian Convolutional Neural Network <br> via Variational Inference <br> [[Paper]](https://arxiv.org/abs/1901.02731) [[Thesis]](https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN/raw/master/thesis.pdf) <br> (PyTorch Implementation by [Kumar Shridhar](https://github.com/kumar-shridhar)) <br> [[Latest Codes]](https://github.com/kumar-shridhar/PyTorch-BayesianCNN) | [Bayesian CNNs](https://github.com/SuperBruceJia/EEG-BayesianCNN) |
-| 13    | Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [RNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/RNN.py) |
-| 14    | Attention-based Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [RNN with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/RNN_with_Attention.py) |
-| 15    | Bidirectional Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [BiRNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiRNN.py) |
-| 16    | Attention-based Bidirectional Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [BiRNN with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiRNN_with_Attention.py) |
-| 17    | Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [LSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/LSTM.py) |
-| 18    | Attention-based Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [LSTM with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/LSTM_with_Attention.py) |
-| 19    | Bidirectional Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [BiLSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM.py) |
-| 20    | Attention-based Bidirectional Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [BiLSTM with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM_with_Attention.py) |
-| 21    | Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [GRU](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/GRU.py) |
-| 22    | Attention-based Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [GRU with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/GRU_with_Attention.py) |
-| 23    | Bidirectional Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [BiGRU](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiGRU.py) |
-| 24    | Attention-based Bidirectional Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [BiGRU with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiGRU_with_Attention.py) |
-| 25    | Attention-based BiLSTM + GCN [[Paper]](https://arxiv.org/abs/2005.00777) | [Attention-based BiLSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM_with_Attention.py) <br> [GCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/GCN_Model.py) |
-| 26    | Transformer [[Paper]](https://arxiv.org/abs/1706.03762) [[Paper]](https://arxiv.org/abs/2010.11929) | [Transformer](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) |
-| 26    | Transfer Learning with Transformer <br> (**This code is only for reference!**) <br> (**You can modify the codes to fit your applications.**) | Stage 1: [Pre-train](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-pretrain_model.py) <br> Stage 2: [Fine Tuning](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-finetuning_model.py) |
+| 8     | Graph Convolutional Neural Networks <br> [[Paper]](https://ieeexplore.ieee.org/document/9889159) [[Presentation]](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf) | [GCN / Graph CNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/GCN_Model.py) |
+| 9    | Deep Residual Graph Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/2007.13484) | [ResGCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/ResGCN_Model.py) | 
+| 10    | Densely Connected Graph Convolutional Neural Networks  | [DenseGCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/DenseGCN_Model.py) |
+| 11    | Bayesian Convolutional Neural Network <br> via Variational Inference [[Paper]](https://arxiv.org/abs/1901.02731) | [Bayesian CNNs](https://github.com/SuperBruceJia/EEG-BayesianCNN) |
+| 12    | Recurrent Neural Networks [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [RNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/RNN.py) |
+| 13    | Attention-based Recurrent Neural Networks [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [RNN with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/RNN_with_Attention.py) |
+| 14    | Bidirectional Recurrent Neural Networks [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [BiRNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiRNN.py) |
+| 15    | Attention-based Bidirectional Recurrent Neural Networks [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [BiRNN with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiRNN_with_Attention.py) |
+| 16    | Long-short Term Memory [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [LSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/LSTM.py) |
+| 17    | Attention-based Long-short Term Memory [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [LSTM with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/LSTM_with_Attention.py) |
+| 18    | Bidirectional Long-short Term Memory [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [BiLSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM.py) |
+| 19    | Attention-based Bidirectional Long-short Term Memory [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [BiLSTM with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM_with_Attention.py) |
+| 20    | Gated Recurrent Unit [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [GRU](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/GRU.py) |
+| 21    | Attention-based Gated Recurrent Unit [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [GRU with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/GRU_with_Attention.py) |
+| 22    | Bidirectional Gated Recurrent Unit [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [BiGRU](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiGRU.py) |
+| 23    | Attention-based Bidirectional Gated Recurrent Unit [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [BiGRU with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiGRU_with_Attention.py) |
+| 24    | Attention-based BiLSTM + GCN [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [Attention-based BiLSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM_with_Attention.py) <br> [GCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/GCN_Model.py) |
+| 25    | Transformer [[Paper]](https://arxiv.org/abs/1706.03762) [[Paper]](https://arxiv.org/abs/2010.11929) | [Transformer](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) |
+| 26    | Transfer Learning with Transformer <br> (**This code is only for reference!**) <br> (**You can modify the codes to fit your data.**) | Stage 1: [Pre-training](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-pretrain_model.py) <br> Stage 2: [Fine Tuning](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-finetuning_model.py) |
 
 **One EEG Motor Imagery (MI) benchmark** is currently supported. Other benchmarks in the field of EEG or BCI can be found [here](https://github.com/meagmohit/EEG-Datasets).
 
@@ -142,15 +141,25 @@
 4. The **Dataset Loader** can be changed or modified from [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/DatasetAPI/DataLoader.py).
 
 ## Research Ideas
-1. Dynamic Graph Convolutional Neural Networks [[Paper Survey]](https://github.com/SuperBruceJia/paper-reading/raw/master/Graph-Neural-Network/Dynamic-GCN-Survey.pptx) [[Paper Reading]](https://github.com/SuperBruceJia/paper-reading/tree/master/Graph-Neural-Network/Dynamic-GCN-Papers)
+1. Dynamic Graph Convolutional Neural Networks [[Paper Survey]](https://shuyuej.com/files/EEG/Dynamic-GCN-Survey.pdf) [[Paper Reading]](https://github.com/SuperBruceJia/paper-reading/tree/master/Graph-Neural-Network/Dynamic-GCN-Papers)
 
 2. Neural Architecture Search / AutoML (Automatic Machine Learning) [[Tsinghua AutoGraph]](https://github.com/THUMNLab/AutoGL)
 
-3. Reinforcement Learning Algorithms (e.g., Deep Q-Learning) [[Tsinghua Tianshou]](https://github.com/thu-ml/tianshou) [[Doc for Chinese Readers]](https://tianshou.readthedocs.io/zh/latest/docs/toc.html)
+3. Reinforcement Learning Algorithms (_e.g._, Deep Q-Learning) [[Tsinghua Tianshou]](https://github.com/thu-ml/tianshou) [[Doc for Chinese Readers]](https://tianshou.readthedocs.io/zh/latest/docs/toc.html)
 
 4. Bayesian Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/1901.02731) [[Thesis]](https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN/raw/master/thesis.pdf) [[Codes]](https://github.com/SuperBruceJia/EEG-BayesianCNN)
 
-5. Transformer Model [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py)
+5. Transformer / Self-attention / Non-local Modeling [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Transformer Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) [[Non-local Modeling PyTorch Codes]](https://github.com/SuperBruceJia/NLNet-IQA)
+
+	[[Why Non-local Modeling?]](https://github.com/SuperBruceJia/NLNet-IQA) [[Paper]](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf) [[A Detailed Presentation]](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf) [[Slides]](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf) [[Poster]](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf)
+	
+	[[Why Transformer?]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Swin%20Transformer%20and%205%20Reasons%20to%20Use%20Transformer:Attention%20in%20Computer%20Vision.pdf)
+	
+	[[Transformer and Attention Mechanism Introduction]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Towards%20Universal%20Models%20with%20NLP%20for%20Computer%20Vision.pdf) 
+		
+	[[视觉Transformer年度进展评述 (in Chinese)]](https://github.com/SuperBruceJia/paper-reading/raw/master/Transformer/%E8%A7%86%E8%A7%89Transformer%20%E5%B9%B4%E5%BA%A6%E8%BF%9B%E5%B1%95%E8%AF%84%E8%BF%B0.pdf) 
+
+6. Self-supervised Learning + Transformer [[Presentation]](https://github.com/SuperBruceJia/paper-reading/raw/master/Transformer/Self-Supervised%20Learning%20in%20Computer%20Vision-%20Past%2C%20Present%2C%20Trends.pdf)
 
 ## Common Issues
 1. **ValueError: Cannot feed value of shape (1024, 1) for Tensor 'input/label:0', which has shape '(1024,)'**
@@ -226,13 +235,13 @@
 
 5. **IndexError: list index out of range**
     
-    To solve this issue, first of all, please double-check the Python Environment. ***Python 2.7 Environment is highly recommended.*** Besides, please install ***0.1.11*** version of ***pydeflib*** Python package. The install instruction is as follows:
+    To solve this issue, first of all, please double-check your Python Environment. **Python 2.7 Environment is required.** Besides, please install ***0.1.11*** version of ***pyEDFlib***. The installation instruction is as follows:
     
     ```python
     $ pip install pyEDFlib==0.1.11
     ```
 
-## Structure of the code
+## Structure of the Code
 
 At the root of the project, you will see:
 
@@ -331,44 +340,50 @@ At the root of the project, you will see:
 
 ## Citation
 
-If you find our library useful, please considering citing our paper in your publications.
+If you find our library useful, please considering citing our papers in your publications.
 We provide a BibTeX entry below.
 
 ```bibtex
+@article{hou2022gcn,
+	title   = {{GCNs-Net}: A Graph Convolutional Neural Network Approach for Decoding Time-Resolved EEG Motor Imagery Signals},
+        author  = {Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Hao, Ziqian and Shi, Yan and Li, Yang and Zeng, Rui and Lv, Jinglei},
+	journal = {IEEE Transactions on Neural Networks and Learning Systems},
+	volume  = {},
+	number  = {},
+	pages   = {1-12},
+	year    = {Sept. 2022},
+	doi     = {10.1109/TNNLS.2022.3202569}
+}
+  
 @article{hou2020novel,
-	title={A novel approach of decoding EEG four-class motor imagery tasks via scout ESI and CNN},
-	author={Hou, Yimin and Zhou, Lu and Jia, Shuyue and Lun, Xiangmin},
-	journal={Journal of neural engineering},
-	volume={17},
-	number={1},
-	pages={016048},
-	year={Feb. 2020},
-	publisher={IOP Publishing}
+	title     = {A Novel Approach of Decoding EEG Four-class Motor Imagery Tasks via Scout {ESI} and {CNN}},
+	author    = {Hou, Yimin and Zhou, Lu and Jia, Shuyue and Lun, Xiangmin},
+	journal   = {Journal of Neural Engineering},
+	volume    = {17},
+	number    = {1},
+	pages     = {016048},
+	year      = {Feb. 2020},
+	publisher = {IOP Publishing},
+	doi       = {10.1088/1741-2552/ab4af6}
+	
 }
 
 @article{hou2022deep,
-	author={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},   
-	title={Deep Feature Mining via the Attention-Based Bidirectional Long Short Term Memory Graph Convolutional Neural Network for Human Motor Imagery Recognition},
-	journal={Frontiers in Bioengineering and Biotechnology},      
-	volume={9},      
-	year={Feb. 2022},      
-	url={https://www.frontiersin.org/article/10.3389/fbioe.2021.706229},       
-	DOI={10.3389/fbioe.2021.706229},      
-	ISSN={2296-4185},
-}
-
-@article{Lun2020GCNs,
-  title={GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals},
-  author={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Lv, Jinglei},
-  journal={arXiv preprint arXiv:2006.08924},
-  year={2022}
+	title   = {Deep Feature Mining via the Attention-Based Bidirectional Long Short Term Memory Graph Convolutional Neural Network for Human Motor Imagery Recognition},
+	author  = {Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},   
+	journal = {Frontiers in Bioengineering and Biotechnology},      
+	volume  = {9},      
+	year    = {Feb. 2022},      
+	url     = {https://www.frontiersin.org/article/10.3389/fbioe.2021.706229},       
+	doi     = {10.3389/fbioe.2021.706229},      
+	ISSN    = {2296-4185}
 }
 
 @article{Jia2020AttentionGCN,
-  title={Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals},
-  author={Jia, Shuyue and Hou, Yimin and Lun, Xiangmin and Lv, Jinglei},
-  journal={arXiv preprint arXiv:2007.13484},
-  year={2022}
+	title   = {Attention-based Graph {ResNet} for Motor Intent Detection from Raw EEG signals},
+	author  = {Jia, Shuyue and Hou, Yimin and Lun, Xiangmin and Lv, Jinglei},
+	journal = {arXiv preprint arXiv:2007.13484},
+	year    = {2022}
 }
 ```
 
@@ -376,33 +391,43 @@ Our papers can be downloaded from:
 1. [A Novel Approach of Decoding EEG Four-class Motor Imagery Tasks via Scout ESI and CNN](https://iopscience.iop.org/article/10.1088/1741-2552/ab4af6/meta)<br>
 *Codes and Tutorials for this work can be found [here](https://github.com/SuperBruceJia/EEG-Motor-Imagery-Classification-CNNs-TensorFlow).*<br>
 
+**Overall Framework**:
+
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture1.jpg" alt="Project1">
+    <img width=100%device-width src="https://user-images.githubusercontent.com/31528604/200832194-ea4198f4-e732-436c-bdec-6e454341c442.png" alt="Project1">
+</div>
+
+**Proposed CNNs Architecture**:
+
+<div>
+    <div style="text-align:center">
+    <img width=60%device-width src="https://user-images.githubusercontent.com/31528604/200834151-647319e6-9f6c-428b-b763-36d8859acab9.png" alt="Project1">
 </div>
 
 --------------------------------------------------------------------------------
 
-2. [GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals](https://arxiv.org/abs/2006.08924)<br> 
-*Presentation for this work can be found [here](https://drive.google.com/file/d/1ecMbtZV2eH14sRAqWIIf1iRvDAC7DMDs/view?usp=sharing).*<br>
+2. [GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals](https://ieeexplore.ieee.org/document/9889159)<br> 
+***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/EEG/GCNs-Net-Presentation.pdf).*<br>
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture2.jpg" alt="Project2">
+    <img width=100%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture2.png" alt="Project2">
 </div>
 
 --------------------------------------------------------------------------------
 
-3. [Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full)
+3. [Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full)<br>
+***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/EEG/BiLSTM-GCN-Presentation.pdf).*<br>
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture3.jpg" alt="Project3.1">
+    <img width=100%device-width src="https://user-images.githubusercontent.com/31528604/200833742-1b775246-7bb8-4add-a6f9-210f1c5249a0.JPEG" alt="Project3.1">
 </div>
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture4.jpg" alt="Project4.1">
+    <img width=100%device-width src="https://user-images.githubusercontent.com/31528604/200833795-157eba9e-0f1b-4f24-8038-8fb385fedcbd.JPEG" alt="Project4.1">
 </div>
 
 --------------------------------------------------------------------------------
@@ -411,7 +436,7 @@ Our papers can be downloaded from:
 
 ## Other Useful Resources
 
-I think the following presentations could be helpful when you guys get engaged with Python & TensorFlow or build models.
+I think the following presentations would be helpful when you guys get engaged with Python and TensorFlow.
 
 1. Python Environment Setting-up Tutorial [download](https://github.com/SuperBruceJia/paper-reading/raw/master/other-presentations/Python-Environment-Set-up.pptx)
 
@@ -421,9 +446,9 @@ I think the following presentations could be helpful when you guys get engaged w
 
 ## Contribution
 
-We always welcome contributions to help make EEG-DL Library better. If you would like to contribute or have any question, please feel free to <a href="http://shuyuej.com/">contact me</a>, and my email is <a href="shuyuej@ieee.org">shuyuej@ieee.org</a>.
+We always welcome contributions to help make EEG-DL Library better. If you would like to contribute or have any questions, please don't hesitate to email me at shuyuej@ieee.org.
 
 ## Organizations
 
-The library was created and open-sourced by Shuyue Jia, supervised by Prof. Yimin Hou @ Human Sensor Laboratory, School of Automation Engineering, Northeast Electric Power University, Jilin, China.<br>
-<a href="http://www.neepu.edu.cn/"> <img width="150" height="150" src="https://github.com/SuperBruceJia/EEG-DL/raw/master/NEEPU.png"></a>
+The library was created and open-sourced by Shuyue Jia, supervised by Prof. Yimin Hou, at the School of Automation Engineering, Northeast Electric Power University, Jilin, Jilin, China.<br>
+<a href="http://www.neepu.edu.cn/"> <img width="500" height="150" src="https://github.com/SuperBruceJia/EEG-DL/raw/master/NEEPU.png"></a>
